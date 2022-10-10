@@ -35,10 +35,6 @@ p {
   font-weight: 500;
 }
 
-.container {
-  margin: 0 auto;
-}
-
 .primary-link {
   background: var(--primary-color);
   border-radius: 4px;
@@ -53,27 +49,20 @@ p {
   color: white;
 }
 
-.secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
 .stack {
   background: rgb(248, 249, 250);
+  display: block;
+  margin: 0;
 }
+
 .stack-about {
-  text-align: center;
   padding: 50px;
 }
 
 .stack-icons {
   font-size: 50px;
   text-align: center;
-  padding: 0px 50px;
+  padding: 50px;
 }
 
 .stack-icons i {
@@ -97,21 +86,32 @@ p {
 }
 
 @media (max-width: 576px) {
-  h2 {
-    text-align: center;
-  }
-
+  h1,
+  h2,
+  h3,
   p {
     text-align: center;
   }
 
-  .pitch {
-    display: flex;
-    text-align: start;
+  h1 {
+    font-size: 48px;
   }
 
-  .button {
-    display: block;
-    text-align: center;
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .primary-link {
+    display: none;
+    margin-bottom: 30px;
+    width: 150px;
+  }
+  
+  .stack-about {
+    padding-bottom: 0px;
   }
 }
