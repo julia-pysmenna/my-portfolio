@@ -35,6 +35,10 @@ p {
   font-weight: 500;
 }
 
+.pitch {
+  padding-top: 150px;
+}
+
 .primary-link {
   background: var(--primary-color);
   border-radius: 4px;
@@ -105,12 +109,16 @@ p {
     font-size: 16px;
   }
 
+  .pitch {
+    padding-top: 50px;
+  }
+
   .primary-link {
     display: none;
     margin-bottom: 30px;
     width: 150px;
   }
-  
+
   .stack-about {
     padding-bottom: 0px;
   }
