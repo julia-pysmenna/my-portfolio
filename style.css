@@ -35,7 +35,11 @@ p {
   font-weight: 500;
 }
 
-.pitch {
+.container {
+  margin: 30px;
+}
+
+.hero-content {
   padding-top: 150px;
 }
 
@@ -50,7 +54,11 @@ p {
 }
 
 .primary-link:hover {
-  color: white;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  box-shadow: none;
+  color: var(--primary-color);
 }
 
 .stack {
@@ -76,23 +84,6 @@ p {
 .about-page {
   background: rgb(248, 249, 250);
 }
-.about-me {
-  margin: 30px;
-}
-
-.about-me h1 {
-  font-size: 48px;
-  line-height: 1.5;
-}
-
-.about-me h2 {
-  font-size: 24px;
-  line-height: 1.5;
-}
-
-.about-content {
-  padding-top: 150px;
-}
 
 @media (max-width: 576px) {
   h1,
@@ -102,21 +93,9 @@ p {
     text-align: center;
   }
 
-  h1 {
-    font-size: 48px;
-  }
-
-  h2 {
-    font-size: 24px;
-  }
-
-  p {
-    font-size: 16px;
-  }
-
-  .pitch {
-    padding-top: 50px;
-  }
+ .hero-content {
+  padding-top: 20px;
+ }
 
   .portrait {
     padding-top: 40px;
@@ -126,8 +105,10 @@ p {
     padding-bottom: 0px;
   }
 
-  .about-content {
-    text-align: center;
-    padding: 0;
+  .primary-link {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 0 auto;
   }
 }
