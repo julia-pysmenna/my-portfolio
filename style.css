@@ -73,20 +73,25 @@ p {
   color: var(--primary-color);
 }
 
-.about-paragraphs {
-  margin: 50px;
+.about-page {
+  background: rgb(248, 249, 250);
+}
+.about-me {
+  margin: 30px;
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
-  text-decoration: none;
+.about-me h1 {
+  font-size: 48px;
+  line-height: 1.5;
 }
 
-.email-link:hover {
-  text-decoration: underline;
+.about-me h2 {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.about-content {
+  padding-top: 150px;
 }
 
 @media (max-width: 576px) {
@@ -113,13 +118,16 @@ p {
     padding-top: 50px;
   }
 
-  .primary-link {
-    display: none;
-    margin-bottom: 30px;
-    width: 150px;
+  .portrait {
+    padding-top: 40px;
   }
 
   .stack-about {
     padding-bottom: 0px;
+  }
+
+  .about-content {
+    text-align: center;
+    padding: 0;
   }
 }
