@@ -71,13 +71,13 @@ p {
   padding: 50px;
 }
 
-.stack-icons {
+.icons {
   font-size: 50px;
   text-align: center;
   padding: 50px;
 }
 
-.stack-icons i {
+.icons i {
   color: var(--primary-color);
 }
 
