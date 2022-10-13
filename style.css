@@ -35,8 +35,8 @@ p {
   font-weight: 500;
 }
 
-.container {
-  margin: 30px;
+.all-pages {
+  margin: 50px 0;
 }
 
 .hero-content {
@@ -51,6 +51,7 @@ p {
   padding: 15px 40px;
   text-decoration: none;
   text-transform: capitalize;
+  transition: all 100ms ease-in-out;
 }
 
 .primary-link:hover {
@@ -93,9 +94,9 @@ p {
     text-align: center;
   }
 
- .hero-content {
-  padding-top: 20px;
- }
+  .hero-content {
+    padding-top: 20px;
+  }
 
   .portrait {
     padding-top: 40px;
