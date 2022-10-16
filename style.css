@@ -35,77 +35,6 @@ p {
   font-weight: 500;
 }
 
-.all-pages {
-  margin: 50px 0;
-}
-
-.hero-content {
-  padding-top: 120px;
-}
-
-.primary-link {
-  background: var(--primary-color);
-  border-radius: 4px;
-  box-shadow: var(--box-shadow);
-  color: white;
-  padding: 15px 40px;
-  text-decoration: none;
-  text-transform: capitalize;
-  transition: all 100ms ease-in-out;
-}
-
-.primary-link:hover {
-  background: white;
-  border-radius: 4px;
-  border: 1px solid var(--primary-color);
-  box-shadow: none;
-  color: var(--primary-color);
-}
-
-.stack {
-  background: rgb(248, 249, 250);
-  display: block;
-  margin: 0;
-}
-
-.stack-about {
-  padding: 50px;
-}
-
-.icons {
-  background: rgb(248, 249, 250);
-  font-size: 50px;
-  text-align: center;
-  padding: 50px;
-}
-
-.icons i {
-  color: var(--primary-color);
-}
-
-.about-page {
-  background: rgb(248, 249, 250);
-}
-
-.contact-box {
-  background: var(--secondary-color);
-  padding: 60px 200px;
-  border-radius: 10px;
-  margin-top: 50px;
-}
-
-.contact-box p {
-  margin: 0;
-}
-
-.portfolio {
-  margin-top: 150px;
-}
-
-.contacts {
-  margin-top: 150px;
-}
-
 footer {
   margin-top: 250px;
 }
@@ -137,6 +66,73 @@ footer .social-icons a {
 footer .social-icons a:hover {
   color: white;
   background: var(--primary-color);
+}
+
+.all-pages {
+  margin: 50px 0;
+}
+
+.hero-content {
+  padding-top: 120px;
+}
+
+.primary-link {
+  background: var(--primary-color);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+  color: white;
+  padding: 15px 40px;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 100ms ease-in-out;
+}
+
+.primary-link:hover {
+  background: white;
+  border-radius: 4px;
+  border: 1px solid var(--primary-color);
+  box-shadow: none;
+  color: var(--primary-color);
+}
+
+.stack {
+  background: rgb(248, 249, 250);
+  border-radius: 10px;
+}
+
+.stack-about {
+  padding: 50px;
+}
+
+.icons {
+  font-size: 50px;
+  text-align: center;
+  padding: 50px;
+}
+
+.icons i {
+  color: var(--primary-color);
+}
+
+.about-page {
+  background: rgb(248, 249, 250);
+}
+
+.contact-box {
+  background: var(--secondary-color);
+  padding: 60px 200px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.portfolio {
+  margin-top: 150px;
+}
+
+.contacts {
+  margin-top: 150px;
+  background: rgb(248, 249, 250);
+  border-radius: 10px;
 }
 
 @media (max-width: 576px) {
