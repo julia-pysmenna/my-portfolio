@@ -40,7 +40,7 @@ p {
 }
 
 .hero-content {
-  padding-top: 150px;
+  padding-top: 120px;
 }
 
 .primary-link {
@@ -73,6 +73,7 @@ p {
 }
 
 .icons {
+  background: rgb(248, 249, 250);
   font-size: 50px;
   text-align: center;
   padding: 50px;
@@ -86,18 +87,27 @@ p {
   background: rgb(248, 249, 250);
 }
 
-footer {
-  margin: 50px 0;
-}
-
-footer .contact-box {
+.contact-box {
   background: var(--secondary-color);
-  padding: 30px 180px;
+  padding: 60px 200px;
   border-radius: 10px;
+  margin-top: 50px;
 }
 
-footer .contact-box p {
+.contact-box p {
   margin: 0;
+}
+
+.portfolio {
+  margin-top: 150px;
+}
+
+.contacts {
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 250px;
 }
 
 footer .email-link {
@@ -142,7 +152,15 @@ footer .social-icons a:hover {
   }
 
   .portrait {
-    padding-top: 40px;
+    padding-top: 20px;
+  }
+
+  .portfolio {
+    margin-top: 100px;
+  }
+
+  .contacts {
+    margin-top: 50px;
   }
 
   .stack-about {
